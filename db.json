@@ -1,14 +1,301 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+   "dndplayer":[
+      {
+         "id":1,
+         "name":"Matthew Mercer",
+         "age":"37",
+         "birth_day":"1982-06-29",
+         "gender":"M",
+         "married":true,
+         "portret":"https://via.placeholder.com/200x80.png?text=Matthew"
+      },
+      {
+         "id":2,
+         "first_name":"Ashley Johnson",
+         "age":"36",
+         "birth_day":"1983-08-09",
+         "gender":"F",
+         "married":true,
+         "portret":"https://via.placeholder.com/200x80.png?text=Ashley"
+      },
+      {
+         "id":3,
+         "first_name":"Laura Bailey",
+         "age":"38",
+         "birth_day":"1981-03-28",
+         "gender":"F",
+         "portret":"https://via.placeholder.com/200x80.png?text=Laura",
+         "married":true
+      },
+      {
+         "id":4,
+         "first_name":"Liam O'Brien",
+         "age":"43",
+         "birth_day":"1976-03-28",
+         "gender":"M",
+         "portret":"https://via.placeholder.com/200x80.png?text=Liam",
+         "married":true
+      },
+      {
+         "id":5,
+         "first_name":"Marisha Ray",
+         "age":"30",
+         "birth_day":"1989-03-10",
+         "gender":"F",
+         "portret":"https://via.placeholder.com/200x80.png?text=Marisha",
+         "married":true
+      },
+      {
+         "id":6,
+         "first_name":"Sam Riegel",
+         "age":"43",
+         "birth_day":"1976-10-09",
+         "gender":"M",
+         "portret":"https://via.placeholder.com/200x80.png?text=Sam",
+         "married":false
+      },
+      {
+         "id":7,
+         "first_name":"Taliesin Jaffe",
+         "age":"37",
+         "birth_day":"1982-06-29",
+         "gender":"M",
+         "portret":"https://via.placeholder.com/200x80.png?text=Taliesin",
+         "married":false
+      },
+      {
+         "id":8,
+         "first_name":"Travis Willingham",
+         "age":"37",
+         "birth_day":"1982-06-29",
+         "gender":"F",
+         "portret":"https://via.placeholder.com/200x80.png?text=Travis",
+         "married":false
+      },
+      {
+         "id":9,
+         "first_name":"Orion Acaba",
+         "age":"37",
+         "birth_day":"1982-06-29",
+         "gender":"M",
+         "portret":"https://via.placeholder.com/200x80.png?text=Orion",
+         "married":false
+      },
+      {
+         "id":10,
+         "first_name":"Felicia Day",
+         "age":"37",
+         "birth_day":"1982-06-29",
+         "gender":"M",
+         "portret":"https://via.placeholder.com/200x80.png?text=Felicia",
+         "married":true
+      },
+      {
+         "id":11,
+         "first_name":"Mary Elizabeth McGlynn",
+         "age":"37",
+         "birth_day":"1982-06-29",
+         "gender":"F",
+         "portret":"https://via.placeholder.com/200x80.png?text=Mary",
+         "married":false
+      },
+      {
+         "id":12,
+         "first_name":"Wil Wheaton",
+         "age":"37",
+         "birth_day":"1982-06-29",
+         "gender":"F",
+         "portret":"https://via.placeholder.com/200x80.png?text=Wil",
+         "married":true
+      },
+      {
+         "id":13,
+         "first_name":"Will Friedle",
+         "age":"37",
+         "birth_day":"1982-06-29",
+         "gender":"F",
+         "portret":"https://via.placeholder.com/200x80.png?text=Will",
+         "married":false
+      },
+      {
+         "id":14,
+         "first_name":"Kit Buss",
+         "age":"37",
+         "birth_day":"1982-06-29",
+         "gender":"F",
+         "portret":"https://via.placeholder.com/200x80.png?text=Kit",
+         "married":true
+      },
+      {
+         "id":15,
+         "first_name":"Jason C. Miller",
+         "age":"37",
+         "birth_day":"1982-06-29",
+         "gender":"M",
+         "portret":"https://via.placeholder.com/200x80.png?text=Jason",
+         "married":false
+      }
+   ],
+   "character":[
+      {
+         "id":1,
+         "allignment":"Lawful Good",
+         "name":"Craurqreils",
+         "level":5,
+         "class":"Wizard",
+         "dndPlayerId":1
+      },
+      {
+         "id":2,
+         "allignment":"Neutral Good",
+         "name":"Erguts",
+         "level":7,
+         "class":"Druid/Monk",
+         "dndPlayerId":2
+      },
+      {
+         "id":3,
+         "allignment":"Chaotic Good",
+         "name":"Truqnieds",
+         "level":9,
+         "class":"Sorcerer",
+         "dndPlayerId":4
+      },
+      {
+         "id":4,
+         "allignment":"Lawful Neutral",
+         "name":"Bhasnir",
+         "level":20,
+         "class":"Warlock/Figther",
+         "dndPlayerId":4
+      },
+      {
+         "id":5,
+         "allignment":"Neutral",
+         "name":"Neddas",
+         "level":17,
+         "class":"Druid",
+         "dndPlayerId":5
+      },
+      {
+         "id":6,
+         "allignment":"Chaotic Neutral",
+         "name":"Lalkoir",
+         "level":3,
+         "class":"Wizard",
+         "dndPlayerId":6
+      },
+      {
+         "id":7,
+         "allignment":"Lawful Evil",
+         "name":"Illu",
+         "level":8,
+         "class":"Cleric",
+         "dndPlayerId":7
+      },
+      {
+         "id":8,
+         "allignment":"Neutral Evil",
+         "name":"Brilnot",
+         "level":12,
+         "class":"Ranger",
+         "dndPlayerId":8
+      },
+      {
+         "id":9,
+         "allignment":"Chaotic Evil",
+         "name":"Ohoik",
+         "level":13,
+         "class":"Bard",
+         "dndPlayerId":9
+      },
+      {
+         "id":10,
+         "allignment":"Chaotic Good",
+         "name":"Cils",
+         "level":12,
+         "class":"Bard/Cleric",
+         "dndPlayerId":10
+      },
+      {
+         "id":11,
+         "allignment":"Lawful Good",
+         "name":"Qaisqon",
+         "level":14,
+         "class":"Barbarian",
+         "dndPlayerId":11
+      },
+      {
+         "id":12,
+         "allignment":"Chaotic Good",
+         "name":"Ilqok",
+         "level":7,
+         "class":"Cleric",
+         "dndPlayerId":12
+      },
+      {
+         "id":13,
+         "allignment":"Lawful Evil",
+         "name":"Zexeol",
+         "level":5,
+         "class":"Paladin",
+         "dndPlayerId":13
+      },
+      {
+         "id":14,
+         "allignment":"Chaotic Good",
+         "name":"Phephrath",
+         "level":18,
+         "class":"Paladin/Warlock",
+         "dndPlayerId":14
+      },
+      {
+         "id":15,
+         "allignment":"Lawful Good",
+         "name":"Harae",
+         "level":16,
+         "class":"Figther",
+         "dndPlayerId":15
+      },
+      {
+         "id":16,
+         "allignment":"Chaotic Good",
+         "name":"Theluds",
+         "level":5,
+         "class":"Figther/Cleric",
+         "dndPlayerId":1
+      },
+      {
+         "id":17,
+         "allignment":"Lawful Good",
+         "name":"Akrith",
+         "level":3,
+         "class":"Figther",
+         "dndPlayerId":2
+      },
+      {
+         "id":18,
+         "allignment":"Chaotic Good",
+         "name":"Raussils",
+         "level":17,
+         "class":"Rogue",
+         "dndPlayerId":4
+      },
+      {
+         "id":19,
+         "allignment":"Lawful Good",
+         "name":"Khulaeds",
+         "level":19,
+         "class":"Ranger/Rogue",
+         "dndPlayerId":4
+      },
+      {
+         "id":20,
+         "allignment":"Chaotic Good",
+         "name":"Ghid",
+         "level":2,
+         "class":"Wizard",
+         "dndPlayerId":5
+      }
+   ]
 }
